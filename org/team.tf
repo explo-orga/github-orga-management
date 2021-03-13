@@ -1,5 +1,5 @@
 resource "github_team" "example" {
-  name = "BackEnd"
+  name = "BackEnd3"
 }
 
 resource "github_team_membership" "example" {

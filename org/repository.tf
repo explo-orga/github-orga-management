@@ -1,3 +1,3 @@
 resource "github_repository" "example" {
-  name = "my_awesome_repo"
+  name = "my_awesome_repo2"
 }
