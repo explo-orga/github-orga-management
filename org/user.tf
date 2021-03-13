@@ -4,5 +4,5 @@ data "github_user" "example" {
 
 resource "github_membership" "example" {
   username = data.github_user.example.login
-  role     = "admin"
+  role     = "member"
 }
