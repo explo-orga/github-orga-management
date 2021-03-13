@@ -13,6 +13,10 @@ env:
   GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
   GITHUB_ORGANIZATION: explore-orga
 
+defaults:
+  run:
+    working-directory: org
+
 jobs:
   terraform:
     name: terraform
